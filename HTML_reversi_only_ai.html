@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Reversi Game</title>
+    <link rel="stylesheet" href="CSS_only_ai.css" />
+</head>
+<body>
+
+    <!-- לוח המשחק -->
+    <div id="bord"></div>
+
+    <!-- לוח תוצאות -->
+    <div id="scoreboard">
+        <p style="color:black; font-size: 24px;">
+            <strong>Scores:</strong><br><br>
+            White: <span id="white_count">0</span><br><br>
+            Black: <span id="black_count">0</span><br><br>
+            Turn: <span id="turn">White</span>
+        </p>
+    </div>
+
+    <!-- הודעת סוף משחק -->
+    <div id="game-end-message" style="display:none; font-size:24px; color:red;">
+        Game Over
+    </div>
+
+    <!-- חיבור ל-JS -->
+    <script src="js_reversi_only_ai.js"></script>
+
+</body>
+</html>
